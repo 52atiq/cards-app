@@ -75,7 +75,7 @@ const cardDetails =(code)=>{
                <h5 class="card-title">${singleCard.suit}</h5>
                <p class="card-text"> ${singleCard.code}</p>
                <p class="card-text"> ${singleCard.value}</p>
-               <button onclick='cardDetails("${singleCard.code}")' href="#" class="btn btn-primary">See </button>
+             
            </div>
          </div>
            `;
